@@ -12,6 +12,8 @@ func main() {
 	fmt.Printf("len=%d, cap=%d,slice=%v\n", len(numbers), cap(numbers), numbers)
 	numbers = append(numbers, 3)
 	fmt.Printf("len=%d, cap=%d,slice=%v\n", len(numbers), cap(numbers), numbers)
+	fmt.Printf("len=%d, cap=%d,slice=%v\n", len(numbers), cap(numbers), numbers)
+	fmt.Printf("len=%d, cap=%d,slice=%v\n", len(numbers), cap(numbers), numbers)
 
 	s := numbers[:5]
 
